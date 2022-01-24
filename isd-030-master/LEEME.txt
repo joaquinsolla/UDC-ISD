@@ -1,0 +1,73 @@
+Método de Jdbc3CcSqlExcursionDao:
+   - crear(): Álvaro Fernández-Campa González
+
+Métodos de AbstractSqlExcursionDao:
+   - actualizar(): Joaquín Solla Vázquez
+   - buscar(): Joaquín Solla Vázquez
+   - buscarPorCiudad(): Joaquín Solla Vázquez
+   - eliminar(): Álvaro Fernández-Campa González
+   
+Método de Jdbc3CcSqlReservaDao:
+   - crear(): David Zambrana Seoane
+   
+Métodos de AbstractSqlReservaDao:
+   - buscar(): Álvaro Fernández-Campa González
+   - actualizarReserva(): Álvaro Fernández-Campa González
+   - buscarReservasPorUsuarios(): David Zambrana Seoane
+   - eliminar(): Álvaro Fernández-Campa González
+
+Métodos de ExcursionServiceImpl:
+   - validarExcursion(): Álvaro Fernández-Campa González
+   - validarReserva(): Álvaro Fernández-Campa González
+   - anadirExcursion(): Álvaro Fernández-Campa González
+   - actualizarExcursion(): Joaquín Solla Vázquez
+   - buscarExcursionesPorCiudad(): Joaquín Solla Vázquez
+   - realizarReserva(): David Zambrana Seoane
+   - cancelarReserva(): Álvaro Fernández-Campa González
+   - buscarReservasUsuario(): David Zambrana Seoane
+   
+Métodos de AppServiceTest:
+   - init(): Álvaro Fernández-Campa González
+   - getValidExcursion(): Álvaro Fernández-Campa González
+   - getValidExcursion(fechaExcursion): Joaquín Solla Vázquez
+   - getValidReserva(): Álvaro Fernández-Campa González
+   - createExcursion(): Álvaro Fernández-Campa González
+   - createReserva(): Álvaro Fernández-Campa González
+   - findExcursion(): Álvaro Fernández-Campa González y Joaquín Solla Vázquez
+   - findReserva(): Álvaro Fernández-Campa González
+   - updateExcursion(): Joaquín Solla Vázquez
+   - updateReserva(): Álvaro Fernández-Campa González
+   - removeExcursion(): Álvaro Fernández-Campa González
+   - removeReserva(): Álvaro Fernández-Campa González
+   - testAddExcursionAndFindExcursion(): Álvaro Fernández-Campa González
+   - testAddInvalidExcursion(): Álvaro Fernández-Campa González
+   - testFindNonExistentExcursion(): Joaquín Solla Vázquez
+   - testActualizarExcursion(): Joaquín Solla Vázquez
+   - testActualizarInvalidExcursion(): Joaquín Solla Vázquez
+   - testActualizarNonExistentExcursion(): Joaquín Solla Vázquez
+   - testFindExcursionPorCiudad(): Joaquín Solla Vázquez
+   - testRealizarReservaYBuscarReservasUsuario(): David Zambrana Seoane
+   - testRealizarReservaInvalida(): David Zambrana Seoane
+   - testRealizarReservaTarjetaCreaditoInvalida(): David Zambrana Seoane
+   - testRealizarReservaExcursionNoValida(): David Zambrana Seoane
+   - testRealizarReservaFueraPlazo(): David Zambrana Seoane
+   - testRealizarReservaLimitePArticipantes(): David Zambrana Seoane
+   - testCancelarReserva(): Álvaro Fernández-Campa González
+   - testCancellInvalidReserva(): Álvaro Fernández-Campa González
+
+Métodos de ExcursionServlet:
+   - processPost(): Álvaro Fernández-Campa González
+   - processPut(): Joaquín Solla Vázquez
+   - processGet(): Joaquín Solla Vázquez
+
+Métodos de ReservaServlet:
+   - processPost(): Álvaro Fernández-Campa González (cancelarReserva) , David Zambrana Seoane (crearReserva)
+   - processGet(): David Zambrana Seoane
+
+Métodos de RestClientExcursionService:
+   - anadirExcursion(): Álvaro Fernández-Campa González
+   - actualizarExcursion(): Joaquín Solla Vázquez
+   - buscarExcursionesPorCiudad(): Joaquín Solla Vázquez
+   - realizarReserva(): David Zambrana Seoane
+   - cancelarReserva(): Álvaro Fernández-Campa González
+   - buscarReservasUsuario(): David Zambrana Seoane
